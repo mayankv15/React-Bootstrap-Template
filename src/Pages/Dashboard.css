@@ -1,0 +1,134 @@
+body {
+    background: linear-gradient(to right, #1b82be, #0f5ea0);
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+  }
+  
+  .master-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 200%;
+    max-width: 1200px;
+  }
+  .dashboard-container {
+    /* margin-top: -31.70%; */
+    /* display: flex; */
+    width: 100%;
+    /* margin-top: 4%; */
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  .dashboard-profile-section {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .edit-button {
+    background-color: #0073b1;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    align-self: flex-end;
+    margin-right: 0%;
+    margin-left: 90%;
+  }
+  
+  .edit-button:hover {
+    background-color: #005a8e;
+  }
+  
+  .skills-section {
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .add-section {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .add-section input[type="text"],
+  .add-section textarea {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .add-section button {
+    background-color: #0073b1;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-section button:hover {
+    background-color: #005a8e;
+  }
+  
+  .dashboard-Photo {
+    /* display: flex; */
+    width: 35%;
+    border-radius: 100px;
+    background-color: #ffffff;
+    margin-top: 4%;
+    height: 225px;
+    
+  }
+  
+  .dashboard-Photo .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 8px solid #0664bb;
+    border-radius: 50%;
+  }
+  .dashboard-Photo h3 {
+    font-size: 16px;
+    color: #5f2402;
+    font-weight: 600;
+    font-style: italic;
+    font-variant: small-caps;
+  }
+  
+  .dashboard-Photo p {
+    font-size: 16px;
+    color: #5f2402;
+    font-weight: 600;
+    font-style: italic;
+    font-variant: small-caps;
+  }
+  
+  
